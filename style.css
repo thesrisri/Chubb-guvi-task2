@@ -1,0 +1,54 @@
+
+.title{
+    text-align: center;
+    padding: 0;
+    font-weight: 600;
+    font-size: 30px;
+
+}
+.eventImage{
+    width: 200px;
+    height: 150px;
+    /* display: flex;
+    align-items: center; */
+}
+
+.container{
+    border: 1px solid royalblue;
+    padding: 10px;
+    margin: 10px;
+    width: 400px;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+p{
+    margin:0;
+    padding:0;
+    font-size: 20px;
+}
+
+button{
+    background-color: cadetblue;
+    border: 0;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 3px; 
+    text-transform: capitalize;
+
+}
+
+.data-container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    text-transform: capitalize;
+}
+.main-container{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
